@@ -1,0 +1,16 @@
+body {
+  padding: 50px 7%;
+  font-family: Geneva;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+a > em {
+  color: blue;
+}
+
+.img-fluid {
+  align-content: center;
+}

@@ -1,0 +1,20 @@
+body {
+  padding: 50px 7%;
+  font-family: Geneva;
+}
+
+.col {
+  border-radius: 10px;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+a > em {
+  color: blue;
+}
+
+p {
+  text-align: justify;
+}

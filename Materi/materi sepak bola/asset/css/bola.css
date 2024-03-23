@@ -1,0 +1,21 @@
+body {
+  padding: 50px 7%;
+  font-family: Geneva;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+h6 {
+  color: black;
+}
+
+img {
+  width: 250px;
+  justify-content: center;
+}
+
+p {
+  text-align: justify;
+}

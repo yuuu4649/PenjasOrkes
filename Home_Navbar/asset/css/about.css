@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg);
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 400px;
+  border-radius: 200px;
+}
+
+.container h1 {
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: -50px;
+  text-align: center;
+  padding: 90px 7%;
+}
+
+.row {
+  padding: 30px 7%;
+}
+
+.row p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  margin-top: 3px;
+  margin-bottom: 1px;
+}

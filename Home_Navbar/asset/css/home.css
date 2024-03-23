@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  min-height: 777px;
+}
+
+.dark-theme {
+  background-image: url(/Home_Navbar/asset/img/dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.light-theme {
+  background-image: url(/Home_Navbar/asset/img/light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 7%;
+  background-color: rgba(70, 70, 70, 0.9);
+  border-bottom: 2px solid green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
+}
+
+.navbar .navbar-brand span {
+  color: greenyellow;
+}
+
+.navbar .navbar-nav a {
+  color: white;
+  display: flex;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0 10px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: rgb(173, 255, 47);
+}
+
+.navbar .navbar-toggler {
+  color: greenyellow;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar .dropdown .btn {
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0 10px;
+}
+
+.navbar .dropdown-menu {
+  background-color: rgba(133, 132, 132, 0.9);
+}
+
+.navbar .dropdown-menu .theme-btn:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+.navbar .dropdown-menu a {
+  color: white;
+  display: flex;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0 10px;
+}
+
+.navbar .dropdown-menu li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  padding: 0;
+  list-style: none;
+}
+
+.theme-toggler {
+  display: flex;
+}
+
+.theme-btn {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 800;
+  margin: 0 5px;
+}
+
+.theme-toggler .theme-btn:hover {
+  color: greenyellow;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content {
+  padding: 15px 7%;
+  max-width: 1100px;
+}
+
+.hero .content h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  padding-left: 5%;
+  text-shadow: 1px 1px 3px red;
+}
+
+.hero .content h1 span {
+  color: greenyellow;
+}
+
+.hero .content h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  padding-left: 5%;
+  text-shadow: 1px 1px 5px black;
+}
